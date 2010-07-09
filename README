@@ -1,0 +1,35 @@
+Requirements.
+
+ - Handle [] users creating [] tasks per second
+ - Tasks are modifications to user resources
+ - Tasks are scheduled to run after a specific delay
+ - Some tasks are mutually exclusive; requires resource locking
+ - Rails niceties will be nice
+
+Technologies to be evaluated.
+
+ - Resque (Redis + queue)
+ - RabbitMQ (AMQP)
+ - Zyre (RestMQ)
+ - ZeroMQ
+ - Q4M
+ - Dwango MQ
+ - DelayedJob (Rails)
+ - ActiveMessaging (STOMP, Rails)
+ - gearman
+ - beanstalkd
+ - memcacheq
+ - RedDwarf
+
+Evaluation metrics.
+
+ - persistence
+ - durability
+ - scheduling
+ - scalablity
+ - ...
+
+References
+
+ - http://4loc.wordpress.com/2010/03/10/background-jobs-in-ruby-on-rails/
+ - http://delicious.com/ento/tmq
