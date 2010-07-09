@@ -12,7 +12,7 @@ Technologies to be evaluated.
  - RabbitMQ (AMQP)
  - Zyre (RestMQ)
  - ZeroMQ
- - Q4M
+ - Q4M (MySQL storage engine)
  - Dwango MQ
  - DelayedJob (Rails)
  - ActiveMessaging (STOMP, Rails)
@@ -20,12 +20,19 @@ Technologies to be evaluated.
  - beanstalkd
  - memcacheq
  - RedDwarf
+ - starling (twitter's)
+ - kestrel (starling on scala)
+ - TorqueBox (Rails + goodies)
+ - ...
+
+(To be organized using github pages.)
 
 Evaluation metrics.
 
+ - speed
  - persistence
  - durability
- - scheduling
+ - schedulable
  - scalablity
  - ...
 
