@@ -1,0 +1,23 @@
+---
+layout: post
+title: resque
+categories: queue
+---
+
+* "home":http://github.com/defunkt/resque
+* ref: [1] "Introducing Resque":http://github.com/blog/542-introducing-resque
+
+github had used SQS, Starling, ActiveMessaging, BackgroundJob, DelayedJob, beanstalkd in the past, before rolling their own.
+
+h3. features
+
+* language: ruby
+* origin: github
+* rails integration: ?
+* persistence: redis
+* workling support: no
+* scheduling support: no
+
+h3. cons
+
+* 

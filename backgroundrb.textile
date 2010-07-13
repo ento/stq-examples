@@ -1,0 +1,21 @@
+---
+layout: post
+title: BackgroundRB
+categories: queue
+---
+
+* "home":
+
+h3. features
+
+* language: ruby
+* origin: ?
+* rails integration: yes
+* persistence: database
+* workling support: no
+* scheduling support: ?
+* related: Packet
+
+h3. cons
+
+* heavy

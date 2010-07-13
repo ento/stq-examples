@@ -1,0 +1,20 @@
+---
+layout: post
+title: workling
+categories: tool
+---
+
+* "home":http://github.com/purzelrakete/workling
+* ref: [1] "Starling + Workling: simple distributed background jobs with Twitter's queuing system":http://www.scribd.com/doc/6134982/Starling-Workling-Simple-Distributed-Background-Jobs-With-Twitters-Queuing-System-Presentation
+
+h3. features
+
+* language: ruby
+* origin: ?
+* rails integration: yes
+* persistence: n/a
+* scheduling support: n/a
+
+h3. cons
+
+* 
